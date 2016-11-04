@@ -571,6 +571,8 @@ footer {
 @media (max-width: 580px) {
   .page-header header {
     padding-top: 30px; }
+    .page-header header p {
+      max-width: 100%; }
 
   .icon-section .icon-list {
     flex-direction: column; }
