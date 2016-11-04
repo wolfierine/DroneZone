@@ -464,7 +464,7 @@ footer {
   .page-header nav .page-nav {
     display: block;
     float: none;
-    padding-top: 60%;
+    padding-top: 30%;
     position: fixed;
     z-index: 999;
     background: linear-gradient(51deg, #cb0035 30%, #e06900);
@@ -570,7 +570,7 @@ footer {
       text-align: left; } }
 @media (max-width: 580px) {
   .page-header header {
-    padding-top: 75px; }
+    padding-top: 30px; }
 
   .icon-section .icon-list {
     flex-direction: column; }
