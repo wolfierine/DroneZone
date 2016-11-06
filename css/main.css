@@ -34,7 +34,7 @@ body {
   position: relative; }
   .price span {
     position: relative;
-    z-index: 2; }
+    z-index: 8; }
   .price::before {
     content: "";
     position: absolute;
@@ -250,28 +250,28 @@ body {
         color: #5e6372;
         line-height: 25px;
         padding-top: 5px; }
-    .icon-section .icon-list:hover .air img {
+    .icon-section .icon-list.active .air img {
       animation-name: fly;
       animation-duration: 2s;
       animation-delay: 0s;
       animation-iteration-count: infinite;
       animation-direction: alternate-reverse;
       animation-timing-function: linear; }
-    .icon-section .icon-list:hover .drone img {
+    .icon-section .icon-list.active .drone img {
       animation-name: scale;
       animation-duration: 3s;
       animation-delay: 0s;
       animation-iteration-count: infinite;
       animation-direction: alternate-reverse;
       animation-timing-function: linear; }
-    .icon-section .icon-list:hover .speed img {
+    .icon-section .icon-list.active .speed img {
       animation-name: rotate;
       animation-duration: 0.5s;
       animation-delay: 0s;
       animation-iteration-count: infinite;
       animation-direction: normal;
       animation-timing-function: linear; }
-    .icon-section .icon-list:hover .range img {
+    .icon-section .icon-list.active .range img {
       animation-name: shake;
       animation-duration: 1s;
       animation-delay: 0s;

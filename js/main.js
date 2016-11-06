@@ -13,6 +13,22 @@ $(document).ready(function(){
 		hamburger.removeClass("active");
 	})
 
+
+	$(document).on("scroll", function(){
+		var
+		icon_list = $(".icon-list"), 
+		icon_list_poz = icon_list.offset().top - $(window).height()/2,
+		wScroll = $(document).scrollTop();
+		// console.log(icon_list_poz + " and " + wScroll);
+		if(wScroll>icon_list_poz){
+			icon_list.addClass("active");
+		}else{
+			icon_list.removeClass("active");
+		}
+	});
+
+
+
 	smoothScroll();
 
 });
